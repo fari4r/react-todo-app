@@ -1,2 +1,2 @@
 # react-todo-app
-ssssss
+simple todo app with react 
