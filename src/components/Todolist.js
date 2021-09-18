@@ -80,7 +80,7 @@ export default class Todolist extends React.Component {
             <div className='flex-con'>
                 <div className='flex-middle'>
                     <div className='wrapper'>
-                        <input  ref = {this.myRef} type="text" value={this.state.userInput} onChange={this.handleChange}></input>
+                        <input placeholder = "Enter a task...." ref = {this.myRef} type="text" value={this.state.userInput} onChange={this.handleChange}></input>
                         <button className="blue" onClick={this.addTodo}>add task</button>
                         <button className="red" onClick={this.deleteAll}>delete all tasks!</button>
                     </div>
